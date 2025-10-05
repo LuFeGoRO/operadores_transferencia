@@ -20,6 +20,8 @@ suma= NOTA1+NOTA2+NOTA3+NOTA4;
 promedio= suma/N_NOTAS;
 // calculo la expresion y obtengo el resultado, ya que se suman las notas, se multiplican y luego se dividen entre 2
 resultado_de_la_expresion= (NOTA1+NOTA2) * (NOTA3+NOTA4) /2;
+resultado_de_la_expresion=(NOTA1+NOTA2)*(NOTA3+NOTA4);
+resultado_de_la_expresion= resultado_de_la_expresion/2;
 // emito el la informacion requerida
 alert(`la suma de las notas es: ${suma}
 el promedio de sus notas es: ${promedio}
